@@ -19,6 +19,10 @@ const path = require('path');
  module: {
      //sirve para aclararle a Webpack cómo debe procesar los loaders que queramos usar para un proyecto.
      rules: [
+        {
+        test: /\.html$/,
+        use: ['html-loader'],
+      },
          {
              test: /\.js$/i,
              loader: 'babel-loader'
