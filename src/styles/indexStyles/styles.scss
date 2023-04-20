@@ -1,2 +1,35 @@
-@import'../fonts';
+@import'../variables';
 @import'../universals';
+
+body{
+    font-family: $Font-primario;
+    font-size: $Font-size;
+}
+
+.header{
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 18px 18px 18px 50px;
+        padding-left: 36px;
+        gap: 20px;
+    }
+    &__contenido{
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+        align-items: center;
+        ul{
+            display: flex;
+            gap: 50px;
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: $colorTerciario;
+            
+        }
+    }
+        
+    
+}
