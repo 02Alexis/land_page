@@ -30,6 +30,14 @@ body{
             
         }
     }
+    &__button {
+        display: inline-block;
+        border-radius: 15px;
+        text-align: center;
+        width: 10em;
+        padding: 1em;
+        cursor: pointer;
+    }
         
     
 }

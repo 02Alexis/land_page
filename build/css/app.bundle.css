@@ -1,0 +1,41 @@
+/*!*************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/indexStyles/styles.css ***!
+  \*************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap);
+/*!*****************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/indexStyles/styles.css (1) ***!
+  \*****************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Epilogue";
+  font-size: paragraph 18px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 18px 18px 50px;
+  padding-left: 36px;
+  gap: 20px;
+}
+.header__contenido {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  align-items: center;
+}
+.header__contenido ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+.header__contenido a {
+  text-decoration: none;
+  color: hsl(0, 0%, 8%);
+}
+
