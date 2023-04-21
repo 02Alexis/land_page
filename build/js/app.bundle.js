@@ -3198,7 +3198,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ind
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./images/favicon-32x32.png */ \"./src/images/favicon-32x32.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./images/logo.svg */ \"./src/images/logo.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./images/client-audiophile.svg */ \"./src/images/client-audiophile.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ./images/client-databiz.svg */ \"./src/images/client-databiz.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ./images/client-maker.svg */ \"./src/images/client-maker.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ./images/client-meet.svg */ \"./src/images/client-meet.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ./images/icon-arrow-down.svg */ \"./src/images/icon-arrow-down.svg\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);\nvar ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);\nvar ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_3___);\nvar ___HTML_LOADER_REPLACEMENT_4___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_4___);\nvar ___HTML_LOADER_REPLACEMENT_5___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_5___);\nvar ___HTML_LOADER_REPLACEMENT_6___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_6___);\nvar code = \"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n    <link rel=\\\"shortcut icon\\\" href=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\" type=\\\"image/x-icon\\\">\\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=edge\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <title>Land page workshop 2 </title>\\r\\n</head>\\r\\n<body>\\r\\n    <header class=\\\"header\\\">\\r\\n        <nav class=\\\"header__nav\\\">\\r\\n            <div class=\\\"header__contenido\\\">\\r\\n                <figure class=\\\"header__logo\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_1___ + \"\\\" alt=\\\"logo\\\">\\r\\n                </figure>\\r\\n                <ul>  \\r\\n                    <li>\\r\\n                        <a href=\\\"\\\">Features</a>\\r\\n                    </li>\\r\\n                    <li>\\r\\n                        <a href=\\\"\\\">Company</a>\\r\\n                    </li>\\r\\n                    <li>\\r\\n                        <a href=\\\"\\\">Careers</a>\\r\\n                    </li>\\r\\n                    <li>\\r\\n                        <a href=\\\"\\\">About</a>\\r\\n                    </li>\\r\\n                </ul>\\r\\n            </div>\\r\\n            <div class=\\\"header__contenido\\\">\\r\\n                <a href=\\\"\\\">Login</a>\\r\\n                <button class=\\\"header__button\\\">Register</button>\\r\\n            </div>\\r\\n        </nav>    \\r\\n    </header>\\r\\n    <main class=\\\"main\\\">\\r\\n        <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_2___ + \"\\\" alt=\\\"\\\"><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_3___ + \"\\\" alt=\\\"\\\"><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_4___ + \"\\\" alt=\\\"\\\"><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_5___ + \"\\\" alt=\\\"\\\"><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_6___ + \"\\\" alt=\\\"\\\">\\r\\n    </main>\\r\\n    \\r\\n    \\r\\n</body>\\r\\n</html>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://proyecto/./src/index.html?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./images/favicon-32x32.png */ \"./src/images/favicon-32x32.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./images/logo.svg */ \"./src/images/logo.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./images/icon-arrow-down.svg */ \"./src/images/icon-arrow-down.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ./images/image-hero-desktop.png */ \"./src/images/image-hero-desktop.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ./images/image-hero-mobile.png */ \"./src/images/image-hero-mobile.png\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);\nvar ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);\nvar ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_3___);\nvar ___HTML_LOADER_REPLACEMENT_4___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_4___);\nvar code = \"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n    <link rel=\\\"shortcut icon\\\" href=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\" type=\\\"image/x-icon\\\">\\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=edge\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <title>Land page workshop 2 </title>\\r\\n</head>\\r\\n<body>\\r\\n    <header class=\\\"header\\\">\\r\\n        <nav class=\\\"header__nav\\\">\\r\\n            <div class=\\\"header__contenido\\\">\\r\\n                <figure class=\\\"header__logo\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_1___ + \"\\\" alt=\\\"logo\\\">\\r\\n                </figure>\\r\\n                <ul>  \\r\\n                    <li>\\r\\n                        <a href=\\\"\\\">Features <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_2___ + \"\\\" alt=\\\"\\\"></a>\\r\\n                    </li>\\r\\n                    <li>\\r\\n                        <a href=\\\"\\\">Company <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_2___ + \"\\\" alt=\\\"\\\"></a>\\r\\n                    </li>\\r\\n                    <li>\\r\\n                        <a href=\\\"\\\">Careers</a>\\r\\n                    </li>\\r\\n                    <li>\\r\\n                        <a href=\\\"\\\">About</a>\\r\\n                    </li>\\r\\n                </ul>\\r\\n            </div>\\r\\n            <div class=\\\"header__contenido\\\">\\r\\n                <a href=\\\"\\\">Login</a>\\r\\n                <button class=\\\"header__button\\\">Register</button>\\r\\n            </div>\\r\\n        </nav>    \\r\\n    </header>\\r\\n    <main class=\\\"main\\\">\\r\\n        <article class=\\\"main__information\\\">\\r\\n            <div class=\\\"main__presentacion\\\">\\r\\n                <span>Make <p>remote work</p></span>\\r\\n            </div>\\r\\n            <div class=\\\"main__presentacion\\\">\\r\\n                <figure class=\\\"main__desktop\\\">\\r\\n                    <picture>\\r\\n                        <source srcset=\\\"\" + ___HTML_LOADER_REPLACEMENT_3___ + \"\\\" media=\\\"(min-width: 1440px)\\\">\\r\\n                        <img class=\\\"img\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_4___ + \"\\\" alt=\\\"\\\">\\r\\n                    </picture>\\r\\n                </figure>\\r\\n            </div>\\r\\n        </article>\\r\\n    </main>\\r\\n    \\r\\n    \\r\\n</body>\\r\\n</html>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://proyecto/./src/index.html?");
 
 /***/ }),
 
@@ -3210,50 +3210,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://proyecto/./src/styles/indexStyles/styles.css?");
-
-/***/ }),
-
-/***/ "./src/images/client-audiophile.svg":
-/*!******************************************!*\
-  !*** ./src/images/client-audiophile.svg ***!
-  \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"8c670cdffe9fb124c848.svg\";\n\n//# sourceURL=webpack://proyecto/./src/images/client-audiophile.svg?");
-
-/***/ }),
-
-/***/ "./src/images/client-databiz.svg":
-/*!***************************************!*\
-  !*** ./src/images/client-databiz.svg ***!
-  \***************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"d1e7955f847e089183ca.svg\";\n\n//# sourceURL=webpack://proyecto/./src/images/client-databiz.svg?");
-
-/***/ }),
-
-/***/ "./src/images/client-maker.svg":
-/*!*************************************!*\
-  !*** ./src/images/client-maker.svg ***!
-  \*************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"3859368b1ba7e579d814.svg\";\n\n//# sourceURL=webpack://proyecto/./src/images/client-maker.svg?");
-
-/***/ }),
-
-/***/ "./src/images/client-meet.svg":
-/*!************************************!*\
-  !*** ./src/images/client-meet.svg ***!
-  \************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"2d6ffbad4108ea24377c.svg\";\n\n//# sourceURL=webpack://proyecto/./src/images/client-meet.svg?");
 
 /***/ }),
 
@@ -3276,6 +3232,28 @@ eval("module.exports = __webpack_require__.p + \"736eae1ff09acfe04c50.png\";\n\n
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"bebf05132571af33611e.svg\";\n\n//# sourceURL=webpack://proyecto/./src/images/icon-arrow-down.svg?");
+
+/***/ }),
+
+/***/ "./src/images/image-hero-desktop.png":
+/*!*******************************************!*\
+  !*** ./src/images/image-hero-desktop.png ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"50cc22fddeb0c072b414.png\";\n\n//# sourceURL=webpack://proyecto/./src/images/image-hero-desktop.png?");
+
+/***/ }),
+
+/***/ "./src/images/image-hero-mobile.png":
+/*!******************************************!*\
+  !*** ./src/images/image-hero-mobile.png ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"adefc8b1bbed2ca80470.png\";\n\n//# sourceURL=webpack://proyecto/./src/images/image-hero-mobile.png?");
 
 /***/ }),
 
