@@ -14,43 +14,106 @@
                 <figure class="header__logo">
                     <img src="./images/logo.svg" alt="logo">
                 </figure>
-                <ul>  
+                <ul>
                     <li>
-                        <a href="">Features <img src="./images/icon-arrow-down.svg" alt=""></a>
+                        <div class="dropdown">
+                         <a id="feature-link" href="#">Features <img id="feature-link" src="./images/icon-arrow-down.svg" alt=""></a>
+                         <ul class="dropdown-list" id="feature-dropdown">
+                            <li><img src="./images/icon-todo.svg" alt=""> Todo List</li>
+                            <li><img src="./images/icon-calendar.svg" alt=""> Calendar</li>
+                            <li><img src="./images/icon-reminders.svg" alt=""> Remininders</li>
+                            <li><img src="./images/icon-planning.svg" alt=""> Planning</li>
+                        </ul>
+                        </div>
                     </li>
                     <li>
-                        <a href="">Company <img src="./images/icon-arrow-down.svg" alt=""></a>
+                        <div class="dropdown">
+                            <a id="company-link" href="#">Company <img id="company-link" src="./images/icon-arrow-down.svg" alt=""></a>
+                            <ul class="dropdown-list" id="company-dropdown">
+                                <li>History</li>
+                                <li>Our Team</li>
+                                <li>Blog</li>
+                            </ul>
+                        </div>
                     </li>
                     <li>
-                        <a href="">Careers</a>
+                        <a href="#">Careers</a>
                     </li>
                     <li>
-                        <a href="">About</a>
+                        <a href="#">About</a>
                     </li>
                 </ul>
             </div>
             <div class="header__contenido">
-                <a href="">Login</a>
+                <a href="#">Login</a>
                 <button class="header__button">Register</button>
             </div>
         </nav>    
+        <!-- <section class="main__content">
+            <div class="main__presentacion">
+                <h1>Make<br>remote work</h1>
+                <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+                <button class="header__button">Lear more</button>
+                <ul>
+                    <li><img src="./images/client-databiz.svg" alt=""></li>
+                    <li><img src="./images/client-audiophile.svg" alt=""></li>
+                    <li><img src="./images/client-meet.svg" alt=""></li>
+                    <li><img src="./images/client-maker.svg" alt=""></li>
+                </ul>
+            </div>
+            <div class="main__img">
+                <img class="img" src="./images/image-hero-desktop.png" alt="">
+                <!-- <picture>
+                    <source srcset="./images/image-hero-desktop.png" media="(min-width: 1440px)">
+                    <img class="img" src="./images/image-hero-mobile.png" alt="">
+                </picture> -->
+            <!--</div>
+        </section> -->
     </header>
+
     <main class="main">
-        <article class="main__information">
+        <section class="main__content">
             <div class="main__presentacion">
-                <span>Make <p>remote work</p></span>
+                <h2>Make<br>remote work</h2>
+                <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+                <button class="main__button">Lear more</button>
+                <ul>
+                    <li><img src="./images/client-databiz.svg" alt=""></li>
+                    <li><img src="./images/client-audiophile.svg" alt=""></li>
+                    <li><img src="./images/client-meet.svg" alt=""></li>
+                    <li><img src="./images/client-maker.svg" alt=""></li>
+                </ul>
             </div>
-            <div class="main__presentacion">
-                <figure class="main__desktop">
-                    <picture>
-                        <source srcset="./images/image-hero-desktop.png" media="(min-width: 1440px)">
-                        <img class="img" src="./images/image-hero-mobile.png" alt="">
-                    </picture>
-                </figure>
+            <div class="main__presentacionTwo">
+                <picture>
+                    <source class="main__mobile" srcset="./images/image-hero-desktop.png" media="(min-width: 475px)">
+                    <img class="main__desktop" src="./images/image-hero-mobile.png" alt="">
+                </picture>
             </div>
-        </article>
+        </section>
     </main>
     
-    
+    <script>
+        // JavaScript para mostrar/ocultar la lista desplegable al hacer clic en el enlace
+        var featureLink = document.getElementById("feature-link");
+        var featureDropdown = document.getElementById("feature-dropdown");
+        var companyLink = document.getElementById("company-link");
+        var companyDropdown = document.getElementById("company-dropdown");
+
+        featureLink.addEventListener("click", function() {
+            if (featureDropdown.style.display === "block") {
+                featureDropdown.style.display = "none";
+            } else {
+                featureDropdown.style.display = "block";
+            }
+        });
+        companyLink.addEventListener("click", function() {
+            if (companyDropdown.style.display === "block") {
+                companyDropdown.style.display = "none";
+            } else {
+                companyDropdown.style.display = "block";
+            }
+        });
+    </script>
 </body>
 </html>
