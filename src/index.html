@@ -16,25 +16,11 @@
                 </figure>
                 <ul>
                     <li>
-                        <div class="dropdown">
-                         <a id="feature-link" href="#">Features <img id="feature-link" src="./images/icon-arrow-down.svg" alt=""></a>
-                         <ul class="dropdown-list" id="feature-dropdown">
-                            <li><img src="./images/icon-todo.svg" alt=""> Todo List</li>
-                            <li><img src="./images/icon-calendar.svg" alt=""> Calendar</li>
-                            <li><img src="./images/icon-reminders.svg" alt=""> Remininders</li>
-                            <li><img src="./images/icon-planning.svg" alt=""> Planning</li>
-                        </ul>
-                        </div>
+                        <a href="#" id="featureLink">Features <img src="./images/icon-arrow-down.svg" alt=""></a>
+                        <ul id="dynamicList"></ul>
                     </li>
                     <li>
-                        <div class="dropdown">
-                            <a id="company-link" href="#">Company <img id="company-link" src="./images/icon-arrow-down.svg" alt=""></a>
-                            <ul class="dropdown-list" id="company-dropdown">
-                                <li>History</li>
-                                <li>Our Team</li>
-                                <li>Blog</li>
-                            </ul>
-                        </div>
+                        <a href="#">Company <img src="./images/icon-arrow-down.svg" alt=""></a>
                     </li>
                     <li>
                         <a href="#">Careers</a>
@@ -47,13 +33,15 @@
             <div class="header__contenido">
                 <a href="#">Login</a>
                 <button class="header__button">Register</button>
+                <img src="./images/icon-menu.svg" class="header__menu">
             </div>
-        </nav>    
-        <!-- <section class="main__content">
-            <div class="main__presentacion">
-                <h1>Make<br>remote work</h1>
+        </nav>
+
+        <div class="header__row">
+            <div class="header__col-1">
+                <h2>Make<br>remote work</h2>
                 <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
-                <button class="header__button">Lear more</button>
+                <button class="header__buttonTwo">Lear more</button>
                 <ul>
                     <li><img src="./images/client-databiz.svg" alt=""></li>
                     <li><img src="./images/client-audiophile.svg" alt=""></li>
@@ -61,17 +49,17 @@
                     <li><img src="./images/client-maker.svg" alt=""></li>
                 </ul>
             </div>
-            <div class="main__img">
-                <img class="img" src="./images/image-hero-desktop.png" alt="">
-                <!-- <picture>
-                    <source srcset="./images/image-hero-desktop.png" media="(min-width: 1440px)">
-                    <img class="img" src="./images/image-hero-mobile.png" alt="">
-                </picture> -->
-            <!--</div>
-        </section> -->
+            <div class="header__col-2">
+                <picture>
+                    <source srcset="./images/image-hero-desktop.png" media="(min-width: 475px)" class="header__imagen">
+                    <img src="./images/image-hero-mobile.png" class="header__imagen">
+                </picture>
+                <!-- <img src="./images/image-hero-desktop.png" alt="" class="header__imagen"> -->
+            </div>
+        </div>
     </header>
 
-    <main class="main">
+    <!-- <main class="main">
         <section class="main__content">
             <div class="main__presentacion">
                 <h2>Make<br>remote work</h2>
@@ -84,36 +72,42 @@
                     <li><img src="./images/client-maker.svg" alt=""></li>
                 </ul>
             </div>
-            <div class="main__presentacionTwo">
+            <div class="main__presentacion">
                 <picture>
                     <source class="main__mobile" srcset="./images/image-hero-desktop.png" media="(min-width: 475px)">
                     <img class="main__desktop" src="./images/image-hero-mobile.png" alt="">
                 </picture>
             </div>
         </section>
-    </main>
-    
-    <script>
-        // JavaScript para mostrar/ocultar la lista desplegable al hacer clic en el enlace
-        var featureLink = document.getElementById("feature-link");
-        var featureDropdown = document.getElementById("feature-dropdown");
-        var companyLink = document.getElementById("company-link");
-        var companyDropdown = document.getElementById("company-dropdown");
+    </main> -->
 
-        featureLink.addEventListener("click", function() {
-            if (featureDropdown.style.display === "block") {
-                featureDropdown.style.display = "none";
+    <!-- <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          // Obtener elementos del DOM
+          var featureLink = document.getElementById("featureLink");
+          var dynamicList = document.getElementById("dynamicList");
+          
+          // Agregar evento clic al enlace "Feature"
+          featureLink.addEventListener("click", function(event) {
+            event.preventDefault();
+            // Mostrar u ocultar la lista dinámica al hacer clic en "Feature"
+            if (dynamicList.style.display === "none") {
+              dynamicList.style.display = "block";
             } else {
-                featureDropdown.style.display = "block";
+              dynamicList.style.display = "none";
             }
+          });
+          
+          // Crear elementos de lista dinámica
+          var listItems = ["Elemento 1", "Elemento 2", "Elemento 3"];
+          listItems.forEach(function(item) {
+            var listItem = document.createElement("li");
+            listItem.textContent = item;
+            dynamicList.appendChild(listItem);
+          });
         });
-        companyLink.addEventListener("click", function() {
-            if (companyDropdown.style.display === "block") {
-                companyDropdown.style.display = "none";
-            } else {
-                companyDropdown.style.display = "block";
-            }
-        });
-    </script>
+      </script> -->
+   
+   
 </body>
 </html>
