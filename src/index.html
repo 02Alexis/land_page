@@ -9,105 +9,92 @@
 </head>
 <body>
     <header class="header">
-        <nav class="header__nav">
+        <!-- navbar -->
+        <div class="header__nav">
             <div class="header__contenido">
                 <figure class="header__logo">
                     <img src="./images/logo.svg" alt="logo">
                 </figure>
-                <ul>
-                    <li>
-                        <a href="#" id="featureLink">Features <img src="./images/icon-arrow-down.svg" alt=""></a>
-                        <ul id="dynamicList"></ul>
-                    </li>
-                    <li>
-                        <a href="#">Company <img src="./images/icon-arrow-down.svg" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="#">Careers</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                </ul>
+                <nav id="nav">
+                    <ul id="menuList">
+                        <img id="btn_close"src="./images/icon-close-menu.svg" class="header__menu--close">
+                        <li>
+                            <a href="#">Features <img src="./images/icon-arrow-down.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#">Company <img src="./images/icon-arrow-down.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                    <div class="header__oculto">
+                        <a href="#">Login</a>
+                        <button class="header__button">Register</button>
+                    </div>
+                </nav>
             </div>
             <div class="header__contenido">
-                <a href="#">Login</a>
-                <button class="header__button">Register</button>
-                <img src="./images/icon-menu.svg" class="header__menu">
+                <nav id="nav">
+                    <a href="#">Login</a>
+                    <button class="header__button">Register</button>
+                </nav>
+                <img src="./images/icon-menu.svg" class="header__menu" id="btn_menu">
+                <div id="back_menu"></div>
             </div>
-        </nav>
+        </div>
+        <!--/navbar -->
 
+        <!-- informatio -->
         <div class="header__row">
             <div class="header__col-1">
-                <h2>Make<br>remote work</h2>
+                <h2>Make <span> </span>remote work</h2>
                 <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
                 <button class="header__buttonTwo">Lear more</button>
-                <ul>
-                    <li><img src="./images/client-databiz.svg" alt=""></li>
-                    <li><img src="./images/client-audiophile.svg" alt=""></li>
-                    <li><img src="./images/client-meet.svg" alt=""></li>
-                    <li><img src="./images/client-maker.svg" alt=""></li>
-                </ul>
+                <div class="header__sponsors">
+                    <ul>
+                        <li><img src="./images/client-databiz.svg" alt=""></li>
+                        <li><img src="./images/client-audiophile.svg" alt=""></li>
+                        <li><img src="./images/client-meet.svg" alt=""></li>
+                        <li><img src="./images/client-maker.svg" alt=""></li>
+                    </ul>
+                </div>
             </div>
             <div class="header__col-2">
                 <picture>
-                    <source srcset="./images/image-hero-desktop.png" media="(min-width: 475px)" class="header__imagen">
+                    <source srcset="./images/image-hero-desktop.png" media="(min-width: 650px)" class="header__imagen">
                     <img src="./images/image-hero-mobile.png" class="header__imagen">
                 </picture>
                 <!-- <img src="./images/image-hero-desktop.png" alt="" class="header__imagen"> -->
             </div>
         </div>
+        <!--/informatio -->
     </header>
+    <script>
+        document.getElementById("btn_menu").addEventListener("click", mostrar_menu);
 
-    <!-- <main class="main">
-        <section class="main__content">
-            <div class="main__presentacion">
-                <h2>Make<br>remote work</h2>
-                <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
-                <button class="main__button">Lear more</button>
-                <ul>
-                    <li><img src="./images/client-databiz.svg" alt=""></li>
-                    <li><img src="./images/client-audiophile.svg" alt=""></li>
-                    <li><img src="./images/client-meet.svg" alt=""></li>
-                    <li><img src="./images/client-maker.svg" alt=""></li>
-                </ul>
-            </div>
-            <div class="main__presentacion">
-                <picture>
-                    <source class="main__mobile" srcset="./images/image-hero-desktop.png" media="(min-width: 475px)">
-                    <img class="main__desktop" src="./images/image-hero-mobile.png" alt="">
-                </picture>
-            </div>
-        </section>
-    </main> -->
+        document.getElementById("back_menu").addEventListener("click", ocultar_menu);
 
-    <!-- <script>
-        document.addEventListener("DOMContentLoaded", function() {
-          // Obtener elementos del DOM
-          var featureLink = document.getElementById("featureLink");
-          var dynamicList = document.getElementById("dynamicList");
-          
-          // Agregar evento clic al enlace "Feature"
-          featureLink.addEventListener("click", function(event) {
-            event.preventDefault();
-            // Mostrar u ocultar la lista dinámica al hacer clic en "Feature"
-            if (dynamicList.style.display === "none") {
-              dynamicList.style.display = "block";
-            } else {
-              dynamicList.style.display = "none";
-            }
-          });
-          
-          // Crear elementos de lista dinámica
-          var listItems = ["Elemento 1", "Elemento 2", "Elemento 3"];
-          listItems.forEach(function(item) {
-            var listItem = document.createElement("li");
-            listItem.textContent = item;
-            dynamicList.appendChild(listItem);
-          });
-        });
-      </script> -->
-   
-   
+        document.getElementById("btn_close").addEventListener("click", ocultar_menu);
+
+
+        nav = document.getElementById("nav");
+        background_menu = document.getElementById("btn_close");
+
+        nav = document.getElementById("nav");
+        background_menu = document.getElementById("back_menu");
+
+        function mostrar_menu(){
+        nav.style.right = "0px";
+        background_menu.style.display = "block";
+        }
+        function ocultar_menu(){
+        nav.style.right = "-450px";
+        background_menu.style.display = "none";
+        }
+    </script>
 </body>
 </html>
